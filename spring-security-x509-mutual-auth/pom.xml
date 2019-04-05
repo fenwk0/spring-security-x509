@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.macymoo.api</groupId>
-	<artifactId>rest</artifactId>
+	<artifactId>rpring-security-x509-mutual-auth</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Mutual Auth**2 Api</name>
 	<description>Standalone Mutual Auth**2 Api Test</description>
