@@ -6,3 +6,5 @@ spring-security-x509-basic-auth/pom.xml
 
 spring-security-x509-client-auth/target/
 spring-security-x509-client-auth/spring-security-x509-client-auth.iml
+
+rest/rest.iml
