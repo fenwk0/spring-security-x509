@@ -28,14 +28,11 @@ public class X509AuthenticationServer extends WebSecurityConfigurerAdapter {
 
     @Bean
     public UserDetailsService userDetailsService() {
-        return new UserDetailsService() {
-            @Override
-            public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-                if (username.equals("cid")) {
-                    return new User(username, "", AuthorityUtils.commaSeparatedStringToAuthorityList("ROLE_USER"));
-                }
-                throw new UsernameNotFoundException("User not found!");
+        return username -> {
+            if (username.equals("cid")) {
+                return new User(username, "", AuthorityUtils.commaSeparatedStringToAuthorityList("ROLE_USER"));
             }
+            throw new UsernameNotFoundException("User not found!");
         };
     }
 }
