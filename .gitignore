@@ -1,1 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
+.idea/
+spring-security-x509-basic-auth/target/
+spring-security-x509-client-auth/target/
