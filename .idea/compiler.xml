@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-security-x509-basic-auth" />
+        <module name="spring-security-x509-client-auth" />
+        <module name="spring-security-x509-mutual-auth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-security-x509" target="1.6" />
+      <module name="spring-security-x509-basic-auth" target="1.8" />
+      <module name="spring-security-x509-client-auth" target="1.8" />
+      <module name="spring-security-x509-mutual-auth" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-security-x509-basic-auth" options="-parameters" />
+      <module name="spring-security-x509-client-auth" options="-parameters" />
+      <module name="spring-security-x509-mutual-auth" options="-parameters" />
+    </option>
+  </component>
+</project>

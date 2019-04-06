@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-security-x509.iml" filepath="$PROJECT_DIR$/spring-security-x509.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-x509-basic-auth/spring-security-x509-basic-auth.iml" filepath="$PROJECT_DIR$/spring-security-x509-basic-auth/spring-security-x509-basic-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-x509-client-auth/spring-security-x509-client-auth.iml" filepath="$PROJECT_DIR$/spring-security-x509-client-auth/spring-security-x509-client-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-x509-mutual-auth/spring-security-x509-mutual-auth.iml" filepath="$PROJECT_DIR$/spring-security-x509-mutual-auth/spring-security-x509-mutual-auth.iml" />
+    </modules>
+  </component>
+</project>
