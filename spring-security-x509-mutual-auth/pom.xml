@@ -11,6 +11,7 @@
     <groupId>com.macymoo.api</groupId>
     <artifactId>spring-security-x509-mutual-auth</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
     <name>spring-security-x509-mutual-auth</name>
     <description>Standalone Mutual Auth**2 Api Test</description>
 

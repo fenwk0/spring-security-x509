@@ -1,7 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea/
-spring-security-x509.iml
-spring-security-x509-basic-auth/spring-security-x509-basic-auth.iml
-spring-security-x509-client-auth/spring-security-x509-client-auth.iml
-spring-security-x509-mutual-auth/spring-security-x509-mutual-auth.iml
+#.idea/
+#spring-security-x509.iml
+#spring-security-x509-basic-auth/spring-security-x509-basic-auth.iml
+#spring-security-x509-client-auth/spring-security-x509-client-auth.iml
+#spring-security-x509-mutual-auth/spring-security-x509-mutual-auth.iml
 
