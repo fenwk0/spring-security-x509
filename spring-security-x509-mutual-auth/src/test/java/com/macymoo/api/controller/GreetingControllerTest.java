@@ -1,26 +1,17 @@
 package com.macymoo.api.controller;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.junit.After;
+import org.junit.Before;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
+import static org.junit.Assert.*;
+
 public class GreetingControllerTest {
 
-    @Autowired
-    ConfigProperties configProp;
-
-
-    RESTInvoker restInvoker = new RESTInvoker();
-
-    @Test
-    public void contextLoads() {
-        String portNumber = configProp.getConfigValue("server.port");
-        restInvoker.invokeNoBody("https://localhost:"+portNumber+"/greeting");
+    @Before
+    public void setUp() throws Exception {
     }
 
-
+    @After
+    public void tearDown() throws Exception {
+    }
 }
